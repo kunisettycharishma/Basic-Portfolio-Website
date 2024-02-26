@@ -1,0 +1,83 @@
+body{
+    background-color: #080f25 !important;
+    margin: 0;
+    padding: 0;
+    color: white !important;
+    font-family: Arial;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar .nav-link{
+    font-size: 13pt;
+    font-weight: 500;
+    padding: 20px !important;
+    color: rgb(165, 176, 185) !important;
+}
+
+.navbar .nav-link.active, .nav-link:hover{
+    color: white !important;
+}
+
+.bg-app{
+    background-color: #080f25 !important;
+}
+
+#logo-image{
+    max-height: 45px;
+    height: 100%;
+}
+
+.logo-image-wrapper{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.bold{
+    font-weight: bold !important;
+} 
+.fw-500{
+    font-weight: 500 !important;
+}
+
+.text-secondary{
+    color: rgb(101, 105, 110) !important;
+}
+
+.rounded-large{
+    border-radius: 1.5rem !important;
+}
+
+.txt-light{
+    color: rgb(165, 176, 185) !important;
+}
+
+.tech-stack-list li{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 500;
+}
+
+.experience-level{
+    display: flex;
+    align-items: center;
+    padding-top: .5rem;
+}
+
+.experience-level .line{
+    height: 8px;
+    width: 35px;
+    margin-right: .5rem;
+    border-radius: 1.3rem;
+    background-color: green;
+}
+
+@media only screen and (max-width: 850px) {
+    h2{
+        text-align: center;
+    }.navbar-nav{
+        background-color: #101418 !important;
+    }
+  }
